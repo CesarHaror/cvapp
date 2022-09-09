@@ -1,0 +1,82 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+ <!-- Jumbotron -->
+ <div class="container-fluid bg-light p-5">
+  <h1 class="display-6">A cerca de mi</h1>
+  <img src="https://scontent.fgdl1-3.fna.fbcdn.net/v/t1.6435-9/58902256_2160772427303412_2892171955685818368_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGvmTex4hSY80isS_A6d0Lx-EGpVtd5vR34QalW13m9HQADYK8EO_WIbxqxGhqo_Zzlk_t6KxZ7hbaZLIq2ztqb&_nc_ohc=Eig-qJjX34IAX_UELLc&_nc_ht=scontent.fgdl1-3.fna&oh=00_AT9GgKIz8CibNEABzyGxhM3OYZrL6tj6uvsoZ9gqT21_Pg&oe=6336B80E" class="rounded float-start" alt="Sdrawnzsher_photo" width="400" >
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Contraseña</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Dirección</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Av. Siempre Viva 123">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Estado</label>
+      <select id="inputState" class="form-select">
+        <option selected>Elegir...</option>
+        <option>Aguascalientes </option>
+        <option>Baja California </option>
+        <option>Baja California Sur </option>
+        <option>Campeche </option>
+        <option>Chiapas </option>
+        <option>Chihuahua </option>
+        <option>Ciudad de México </option>
+        <option>Coahuila </option>
+        <option>Colima </option>
+        <option>Durango </option>
+        <option>Estado de México </option>
+        <option>Guanajuato </option>
+        <option>Guerrero </option>
+        <option>Hidalgo </option>
+        <option>Jalisco </option>
+        <option>Michoacán </option>
+        <option>Morelos </option>
+        <option>Nayarit </option>
+        <option>Nuevo León </option>
+        <option>Oaxaca </option>
+        <option>Puebla </option>
+        <option>Querétaro </option>
+        <option>Quintana Roo </option>
+        <option>San Luis Potosí </option>
+        <option>Sinaloa </option>
+        <option>Sonora </option>
+        <option>Tabasco </option>
+        <option>Tamaulipas </option>
+        <option>Tlaxcala </option>
+        <option>Veracruz </option>
+        <option>Yucatán </option>
+        <option>Zacatecas </option>
+      </select>
+    </div>
+
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Enviar Sus Datos de Contacto</button>
+    </div>
+  </form>    
+  <hr class="my-4">
+</div>
+<!-- Jumbotron -->
+  
+{% endblock %}
+
